@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Lesson 9 (Homework) - Form</h1>
+    <form
+        action="mailto:olushkagret3@gmail.com"
+        enctype="text/plain"
+        method="POST" 
+        style="width: 800px;"
+        autocomplete="off"
+    >
+        <p>
+            <fieldset>
+                <legend>Credentials</legend>
+                <p>
+                    <label for="first_name">First name:</label>
+                    <input
+                        id="first_name"
+                        type="text"
+                        placeholder="Enter your first name"
+                        required
+                    />
+                </p>
+                <p>
+                    <label for="last_name">Last name:</label>
+                    <input
+                        id="last_name"
+                        type="text"
+                        placeholder="Enter your last name"
+                        required
+                    />
+                </p>
+                <p>
+                    <label for="email">Email:</label>
+                    <input
+                        id="email"
+                        type="email"
+                        placeholder="example@mail.com"
+                    />
+                </p>
+                <p>
+                    <label for="password">Password:</label>
+                    <input
+                        id="password"
+                        type="password"
+                        placeholder="At least 6 symbols"
+                        minlength="6"
+                        required
+                    />
+                </p>
+                <p>
+                    <label for="experience">Previous experience:</label>
+                    <textarea id="experience" cols="50" rows="5"></textarea>
+                </p>
+            </fieldset>
+        </p>
+        <p>
+            <fieldset>
+                <legend>Impotant data:</legend>
+                <p>
+                    <label for="date_of_birth">Date of birth:</label>
+                    <input
+                        id="date_of_birth"
+                        type="date"
+                        required
+                    />
+                </p>
+                <p>
+                    <label for="desired_salary">Desired salary:</label>
+                    <input
+                        id="desired_salary"
+                        type="number"
+                        placeholder="1000"
+                        min="100"
+                        max="2000"
+                        step="100"
+                        required
+                    />
+                    <label for="desired_salary">$$</label>
+                </p>
+                <p>
+                    <label>Position:</label>
+    
+                    <input id="position1" type="radio" name="position" checked/>
+                    <label for="position1">Frontend developer</label>
+    
+                    <input id="position2" type="radio" name="position" />
+                    <label for="position2">Backend developer</label>
+    
+                    <input id="position3" type="radio" name="position" />
+                    <label for="position3">UI Designer</label>
+                </p>
+                <p>
+                    <label>Benefits:</label>
+                    
+                    <input id="benefit1" type="checkbox"/>
+                    <label for="benefit1">Snacks & Coffee</label>
+    
+                    <input id="benefit2" type="checkbox"/>
+                    <label for="benefit2">Insurance</label>
+    
+                    <input id="benefit3" type="checkbox"/>
+                    <label for="benefit3">30-days vacation</label>
+
+                    <input id="benefit4" type="checkbox"/>
+                    <label for="benefit4">Open-minded manager</label>
+
+                    <input id="benefit5" type="checkbox"/>
+                    <label for="benefit5">Free English courses</label>
+                </p>
+                <p>
+                    <label>Current level:</label>
+                    <select>
+                        <option value="0" >Noobie</option>
+                        <option value="1">Junior</option>
+                        <option value="2">Middle</option>
+                        <option value="3">Senior</option>
+                    </select>
+                </p>
+            </fieldset>
+        </p>
+        <p>
+            <fieldset>
+                <legend>Other useful data:</legend>
+                <p>
+                    <label for="color">Favourite color:</label>
+                    <input type="color" id="color" value="#00ff00">
+                </p>
+                <p>
+                    <label for="photo">Your photo:</label>
+                    <input
+                        id="photo"
+                        type="file"
+                        accept="image/*"
+                    />
+                </p>
+            </fieldset>
+        </p>
+        <p>
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </p>
+    </form>
+</body>
+</html>
