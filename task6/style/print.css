@@ -1,0 +1,21 @@
+* {
+    color: black !important; 
+    /* background-color: white !important;  */
+}
+
+header, #aside, .footer {
+    border: none;
+}
+
+.navigation-list {
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.semi-visible {
+    opacity: 1;
+}
+
+.footer p {
+    font-weight: bold;
+}

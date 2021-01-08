@@ -1,0 +1,116 @@
+@import url(./aside.css);
+
+:root {
+    --pantone: rgba(255, 0, 0, 0.5);
+} 
+
+html, body {
+    width: 100%;
+    font-size: 16px;
+}
+
+header {
+    width: 600px;
+    padding: 16px;
+    border: dashed 2px rgba(115, 60, 241, 0.6);
+}
+
+header nav {
+    width: 50%;
+    border: inherit;
+}
+
+header h1 {
+    font-size: 28px !important;
+    color: black !important;
+}
+
+.navigation-list ul{
+    list-style-type: none;
+}
+
+.navigation-list ul li{
+    font-size: 18px;
+    color: hsl(200, 80%, 40%);
+    text-decoration: underline;
+}
+
+main {
+    font-size: 18px;
+}
+
+main .items-list {
+    font-size: 0.75em;
+}
+
+main h3 {
+    font-size: 1.5em;
+}
+
+main section p {
+    font-size: 0.9rem;
+}
+
+.semi-visible {
+    opacity: 0.5;
+}
+
+.semi-visible + section {
+    background-color: var(--pantone);
+}
+
+#invisible {
+    opacity: 0;
+}
+
+.footer {
+    width: calc(100% - 400px);
+    height: 10vmax;
+    border: dotted 2px var(--pantone);
+}
+
+@media screen and (max-width: 599px) {
+    header {
+        width: 100%;
+    }
+
+    header nav {
+        width: 100%;
+        border: none;
+    }
+
+    .navigation-list {
+        list-style-type: square;
+    }
+
+    #aside {
+        width: 50%;
+        border: none;
+    }
+
+    .footer {
+        width: 90vm;
+        height: auto;
+        border: none;
+    }
+
+    .semi-visible + section {
+        background-color:rgba(255, 255, 255, 0);
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 959px) {
+    header nav {
+        width: 100%;
+    }
+
+    #aside {
+        width: 600px;
+        color: black;
+    }
+
+    .footer {
+        width: 90vm;
+        height: auto;
+    }
+}
