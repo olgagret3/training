@@ -25,11 +25,11 @@ header h1 {
     color: black !important;
 }
 
-.navigation-list ul{
+.navigation-list ul {
     list-style-type: none;
 }
 
-.navigation-list ul li{
+.navigation-list ul li {
     font-size: 18px;
     color: hsl(200, 80%, 40%);
     text-decoration: underline;
@@ -89,13 +89,14 @@ main section p {
     }
 
     .footer {
-        width: 90vm;
+        width: 90vw;
         height: auto;
         border: none;
     }
 
     .semi-visible + section {
-        background-color:rgba(255, 255, 255, 0);
+        background-color: transparent;
+        /* background-color:rgba(255, 255, 255, 0); */
     }
 }
 
@@ -110,7 +111,7 @@ main section p {
     }
 
     .footer {
-        width: 90vm;
+        width: 90vw;
         height: auto;
     }
 }

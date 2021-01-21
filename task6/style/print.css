@@ -1,21 +1,32 @@
 * {
-    color: black !important; 
-    /* background-color: white !important;  */
+    color: black !important;
 }
 
 header, #aside, .footer {
     border: none;
 }
 
-.navigation-list {
+header {
+    padding: 0;
+}
+
+.navigation-list ul {
+    list-style-type: disc;
+}
+
+.navigation-list ul li {
     font-size: 18px;
     text-decoration: none;
 }
 
-.semi-visible {
+#aside ul {
+    list-style-type: disc;
+}
+
+#invisible {
     opacity: 1;
 }
 
-.footer p {
-    font-weight: bold;
+.semi-visible {
+    opacity: 1;
 }
