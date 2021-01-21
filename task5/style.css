@@ -10,7 +10,7 @@ a {
     color: #5555fd;
 }
 
-header > ul {
+header ul {
     list-style-type: upper-roman;
 }
 
@@ -73,9 +73,9 @@ a[href ^= "http://"] {
 }
 
 img[src $= ".jpg"] {
-    width: 6.875rem;
+    width: 110px;
 }
 
 img[src $= ".png"] {
-    width: 5rem;
+    width: 80px;
 }
