@@ -1,0 +1,106 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    margin: 22px 17px;
+}
+
+.title {
+    margin: 0;
+    font-family: "Tenor Sans", sans-serif;
+    line-height: 28px;
+}
+
+.title::before {
+    content: "Styled";
+    font-family: "Poller One", cursive;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.title::after {
+    content: "Validation";
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FF0000;
+}
+
+p {
+    margin: 20px 0;
+}
+
+label {
+    font-family: "Tenor Sans", sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+input {
+    width: 157px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    outline: 0 !important;
+}
+
+input:focus:valid {
+    border: 1px solid rgba(12, 149, 0, 0.4);
+    box-shadow: 1px 1px 10px rgba(12, 149, 0, 0.2);
+}
+
+input:focus:invalid {
+    border: 1px solid rgba(255, 0, 0, 0.4);
+    box-shadow: 1px 3px 6px rgba(255, 0, 0, 0.2);
+}
+
+button {
+    width: 80px;
+    height: 24px;
+}
+
+.reset {
+    background: #FFFFFF;
+    border: 1px solid #FF6644;
+    font-family: "Tenor Sans", sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FF6644;
+    outline-color: currentColor;
+}
+
+.reset:hover {
+    background: #FF6644;
+    box-shadow: 2px 2px 8px rgba(255, 102, 68, 0.25);
+    color: #FFFFFF;
+}
+
+.reset:active {  
+    background: #DA2700;
+    box-shadow: 3px 3px 10px rgba(218, 39, 0, 0.45);
+    color: #FFFFFF;
+}
+
+.submit {
+    border: 0;
+    background: #5278FF;
+    font-family: "Tenor Sans", sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    outline-color: currentColor;
+}
+
+.submit:hover {
+    background: #0132DF;
+    box-shadow: 2px 2px 8px rgba(1, 50, 223, 0.25);
+}
+
+.submit:active {
+    background: #001C81;
+    box-shadow: 3px 3px 10px rgba(0, 28, 129, 0.25);
+}
