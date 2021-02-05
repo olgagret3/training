@@ -1,0 +1,31 @@
+.logo {
+  position: relative;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 33px;
+  letter-spacing: 2.5px;
+  color: var(--black);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.logo:after {
+  position: absolute;
+  height: 6px;
+  background-color: var(--gold);
+  content: "";
+  left: -2px;
+  right: 2px;
+  bottom: 4px;
+  opacity: .35;
+  transition: height 200ms ease-in;
+}
+
+.logo:hover:after {
+  height: 72%;
+}
+
+.logo-text {
+  position: relative;
+  z-index: 1;
+}

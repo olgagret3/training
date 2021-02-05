@@ -1,0 +1,179 @@
+.posts-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -1rem;
+    max-width: 770px;
+}
+
+.post-wrapper {
+    padding: 1rem;
+    flex-grow: 1;
+    flex-basis: 385px;
+    flex-shrink: 0;
+}
+
+.post {
+    background-color: #ffffff;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    /* min-width: 370px; */
+}
+
+.post:hover {
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.post-image {
+    height: 280px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.post-content {
+    padding: 1rem 3rem;
+    text-align: center;
+}
+
+.post-category-link {
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--gold);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.post-category-link:hover {
+    text-decoration: underline;
+}
+
+.post-title {
+    margin: 4px 0 0;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.post-title-link {
+    text-decoration: none;
+    color: var(--black);
+}
+
+.post-title-link:hover {
+    opacity: 0.7;
+}
+
+.post-info {
+    margin-top: 10px;
+    color: var(--gray);
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.post-author {
+    color: var(--lightgray);
+}
+
+.post-info-link {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.post-info-link:hover {
+    text-decoration: underline;
+}
+
+.post-description {
+    margin: 14px 0 0;
+    color: var(--gray);
+    line-height: 24px;
+}
+
+.post-lg {
+    margin: auto;
+    max-width: 742px;
+}
+
+.post-lg .post-content {
+    padding: 25px 30px;
+    text-align: left;
+}
+
+.post-lg .post-image {
+    height: 350px;
+}
+
+.post-sm {
+    max-width: 270px;
+}
+
+.post-sm .post-content {
+    padding: 1rem 14px;
+}
+
+.post-sm .post-title {
+    font-size: 18px;
+}
+
+.post-sm .post-image {
+    height: 180px;
+}
+
+
+/* 1095 */
+
+
+
+.post-1 .post-image {
+    background-image: url('../../images/image-1.jpg');
+}
+
+.post-2 .post-image {
+    background-image: url('../../images/image-2.jpg');
+}
+
+.post-3 .post-image {
+    background-image: url('../../images/image-3.jpg');
+}
+
+.post-4 .post-image {
+    background-image: url('../../images/image-4.jpg');
+}
+
+.post-5 .post-image {
+    background-image: url('../../images/image-5.jpg');
+}
+
+.post-6 .post-image {
+    background-image: url('../../images/image-6.jpg');
+}
+
+.post-7 .post-image {
+    background-image: url('../../images/image-7.jpg');
+}
+
+.post-8 .post-image {
+    background-image: url('../../images/image-8.jpg');
+}
+
+.post-9 .post-image {
+    background-image: url('../../images/image-9.jpg');
+}
+
+.post-10 .post-image {
+    background-image: url('../../images/image-10.jpeg');
+}
+
+.post-lg-1 .post-image {
+    background-image: url('../../images/image-lg-1.png');
+}
+
+.post-sm-1 .post-image {
+    background-image: url('../../images/image-sm-1.png'); 
+}
+
+.post-sm-2 .post-image {
+    background-image: url('../../images/image-sm-2.png'); 
+}
+
+.post-sm-3 .post-image {
+    background-image: url('../../images/image-sm-3.png'); 
+}

@@ -1,0 +1,60 @@
+.aside {
+    flex-basis: 270px;
+    height: 700px;
+    flex-shrink: 0;
+    margin-left: 2rem;
+}
+
+.aside-container {
+    margin: -6px -1rem;
+}
+
+.heading {
+    border: 1px solid #E5E5E5;
+    font-size: 16px;
+    text-align: center;
+    padding: 1rem;
+    color: var(--black);
+}
+.heading-wrapper {
+    padding: 6px 1rem;
+    flex-grow: 1;
+    flex-basis: 385px;
+    flex-shrink: 0;
+}
+
+
+.heading-wrapper ~ .heading-wrapper {
+    margin-top: 50px;
+}
+
+.author {
+    margin: 6px 0 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.topic {
+    margin: 4px 0 0; 
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: var(--lightgray);
+}
+
+.description {
+    margin: 15px 0 0;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--gray);
+}
+
+.description-link-wrapper {
+    border-top: 1px solid #E5E5E5;
+    text-align: center;
+    padding: 12px 0;
+}
