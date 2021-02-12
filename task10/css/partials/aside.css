@@ -3,6 +3,7 @@
     height: 700px;
     flex-shrink: 0;
     margin-left: 2rem;
+    flex-grow: 0;
 }
 
 .aside-container {
@@ -11,9 +12,11 @@
 
 .heading {
     border: 1px solid #E5E5E5;
-    font-size: 16px;
-    text-align: center;
     padding: 1rem;
+    margin: 0;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
     color: var(--black);
 }
 .heading-wrapper {
@@ -57,4 +60,10 @@
     border-top: 1px solid #E5E5E5;
     text-align: center;
     padding: 12px 0;
+}
+
+@media (max-width: 1096px) {
+    .aside {
+        display: none;
+    }
 }

@@ -1,0 +1,44 @@
+.photos-section {
+    max-width: 1880px;
+    margin: auto;
+}
+
+.photos-heading {
+    text-align: center;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    color: var(--black);
+    margin-bottom: 0;
+}
+
+.photos-container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+}
+
+.photo-link {
+    margin-right: 20px;
+    width: 296px;
+    height: 296px;
+    position: relative;
+}
+
+.photo-link:first-child {
+    margin-left: 20px;
+}
+
+.photo-link::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.photo-link:hover::after {
+    background-color: rgba(0, 0, 0, 0.3);
+}

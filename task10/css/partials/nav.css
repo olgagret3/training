@@ -13,6 +13,8 @@
   text-decoration: none;
   color: var(--black);
   line-height: 19px;
+  transition: 200ms ease-out;
+
 }
 
 .nav-link-active,
@@ -44,6 +46,36 @@
   justify-content: space-between;
 }
 
-.category-nav-link:hover {
-  text-decoration: dotted;
+.category-nav-link:hover span:first-child{
+  text-decoration: underline dotted;
+}
+
+.hamburger-menu {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 25px;
+  width: 40px;
+}
+
+.hamburger-line {
+  display: block;
+  height: 5px;
+  background-color: var(--black);
+  border-radius: 4px;
+}
+
+@media (max-width: 797px) {
+  .header .nav  {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: flex;
+  }
+
+  .hamburger-menu:hover {
+    cursor: pointer;
+  }
+
 }

@@ -6,7 +6,6 @@
 }
 
 .post-wrapper {
-    padding: 1rem;
     flex-grow: 1;
     flex-basis: 385px;
     flex-shrink: 0;
@@ -15,7 +14,7 @@
 .post {
     background-color: #ffffff;
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
-    /* min-width: 370px; */
+    transition: 300ms ease-out;
 }
 
 .post:hover {
@@ -88,7 +87,7 @@
 }
 
 .post-lg {
-    margin: auto;
+    margin: 46px auto 14px;
     max-width: 742px;
 }
 

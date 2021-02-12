@@ -26,11 +26,11 @@
 .main-post-link {
   color: var(--white);
   text-decoration: none;
+  transition: color 200ms ease-out;
 }
 
 .main-post-link:hover {
   color: rgba(255, 255, 255, .75);
-  transition: color 100ms ease-out;
 }
 
 .main-post-category {

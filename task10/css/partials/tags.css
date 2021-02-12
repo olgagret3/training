@@ -1,0 +1,24 @@
+.tags-container {
+    padding: 1rem;
+    margin: -5px;
+}
+
+.tag-wrapper {
+    padding: 5px;
+    display: inline-flex;
+}
+
+.tag-item {
+    display: block;
+    background-color: #F8F9FA;
+    padding: 6px 14px;
+    text-decoration: none;
+    color: var(--gray);
+    line-height: 19px;
+    transition: 200ms ease-out;
+}
+
+.tag-item:hover {
+    background-color: var(--dustygray);
+    color: rgba(255, 255, 255, 0.9);
+}
