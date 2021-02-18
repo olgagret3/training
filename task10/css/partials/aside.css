@@ -49,7 +49,7 @@
 
 .description {
     margin: 15px 0 0;
-    font-family: 'PT Sans', sans-serif;
+    font-family: var(--pt-sans);
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;

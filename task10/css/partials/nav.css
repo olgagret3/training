@@ -33,7 +33,7 @@
 }
 
 .category-nav-item + .category-nav-item {
-  border-top: 1px solid #E5E5E5;;
+  border-top: 1px solid #E5E5E5;
 }
 
 .category-nav-link {
@@ -73,9 +73,4 @@
   .hamburger-menu {
     display: flex;
   }
-
-  .hamburger-menu:hover {
-    cursor: pointer;
-  }
-
 }

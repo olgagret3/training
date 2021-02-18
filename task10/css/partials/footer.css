@@ -50,7 +50,7 @@
 }
 
 .footer-rights-text {
-    font-family: 'PT Sans', sans-serif;
+    font-family: var(--pt-sans);
     font-size: 14px;
     line-height: 18px;
     color: var(--gray);

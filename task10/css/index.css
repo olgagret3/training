@@ -18,7 +18,7 @@
 
 html, body {
   font-size: 14px;
-  font-family: 'PT serif', serif;
+  font-family: var(--pt-serif);
   margin: 0;
   color: var(--black);
   background-color: #ffffff;
@@ -63,8 +63,7 @@ html, body {
 
 .pagination-link {
   text-decoration: none;
-  font-family: 'HK Grotesk', serif;
-  font-size: 14px;
+  font-family: var(--hk-grotesk);
   line-height: 16px;
   color: var(--black);
 }
@@ -77,5 +76,15 @@ html, body {
 @media (max-width: 1096px) {
   .main-container  {
       justify-content: center;
+  }
+}
+
+@media (max-width: 797px) {
+  .header {
+    padding: 24px 36px;
+  }
+
+  .pagination {
+    display: none;
   }
 }

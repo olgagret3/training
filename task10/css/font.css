@@ -1,3 +1,9 @@
+:root {
+  --pt-serif: 'PT serif', serif;
+  --hk-grotesk: 'HK Grotesk', serif;
+  --pt-sans: 'PT Sans', sans-serif;
+}
+
 @font-face {
   font-family: 'HK Grotesk';
   font-weight: 400;
